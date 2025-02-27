@@ -8,8 +8,7 @@
 /* Estilos generales */
 body {
     font-family: 'Bebas Neue', sans-serif;
-    background-color: #ffffff;
-
+    background-color: #1a1a1a;
     color: #ffffff;
     line-height: 1.6;
     padding: 20px;
@@ -41,7 +40,7 @@ body {
 .welcome {
     font-size: 1.5rem;
     text-align: center;
-    color: rgb(171, 44, 209);
+    color: rgb(192, 154, 204);
     margin-bottom: 40px;
 }
 
