@@ -115,6 +115,23 @@
     </div>
 
     <script>
+        // Función para abrir el formulario con la información del producto
+        function openForm(productId) {
+            const product = document.getElementById(productId);
+            const productName = product.querySelector('h3').innerText;
+            const productPrice = product.querySelector('h4').innerText;
+
+            document.getElementById('product-name').value = productName;
+            document.getElementById('product-price').value = productPrice;
+
+            document.getElementById('form-container').style.display = 'flex';
+        }
+
+        // Función para cerrar el formulario
+        function closeForm() {
+            document.getElementById('form-container').style.display = 'none';
+        }
+    </script>
 
 </body>
 </html>
