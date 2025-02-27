@@ -86,5 +86,35 @@
             </div>
         </div>
     </div>
+
+            <!-- Formulario oculto -->
+            <div id="form-container" class="form-container">
+                <form id="payment-form">
+                    <h2>Payment Form</h2>
+                    <label for="product-name">Product Name:</label>
+            <input type="text" id="product-name" name="product-name" readonly>
+
+            <label for="product-price">Price:</label>
+            <input type="text" id="product-price" name="product-price" readonly>
+
+            <label for="buyer-name">Your Name:</label>
+            <input type="text" id="buyer-name" name="buyer-name" required>
+
+            <label for="buyer-email">Email:</label>
+            <input type="email" id="buyer-email" name="buyer-email" required>
+
+            <label for="buyer-password">Password:</label>
+            <input type="password" id="buyer-password" name="buyer-password" required>
+
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" required>
+
+            <button type="submit">Submit Payment</button>
+            <button type="button" onclick="closeForm()">Cancel</button>
+        </form>
+    </div>
+
+    <script>
+
 </body>
 </html>
